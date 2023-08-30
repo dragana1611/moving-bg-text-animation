@@ -1,0 +1,30 @@
+body {
+  background: #000;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  display: inline-flex;
+  font-family: "Impact", sans-serif;
+  background: url("https://media.istockphoto.com/id/1124656717/photo/colorful-hot-air-balloons-before-launch-in-goreme-national-park-cappadocia-turkey.jpg?s=612x612&w=0&k=20&c=83Dpo8ehIcXj5n3yFaanyBZ1a4k1aDjQi1FiQOXPH1Q=");
+  font-size: 10rem;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #5b728a54;
+  animation: move 30s linear infinite;
+  letter-spacing: 0.3rem;
+}
+@keyframes move {
+  from {
+    background-position: 0 80%;
+  }
+  to {
+    background-position: 100% 50%;
+  }
+}
